@@ -1,0 +1,291 @@
+{
+    "background": {
+        "a57706": [
+            "meta.diff", 
+            "meta.diff.header"
+        ], 
+        "d3423e": [
+            "invalid.deprecated"
+        ], 
+        "eae3ca": [
+            "markup.inserted"
+        ], 
+        "ff2c83": [
+            "invalid"
+        ]
+    }, 
+    "colors": {
+        "010E17": [
+            "editor.lineHighlightBackground"
+        ], 
+        "011627": [
+            "editor.background"
+        ], 
+        "122d42": [
+            "editor.selectionHighlightBorder"
+        ], 
+        "2e2040": [
+            "editorWhitespace.foreground"
+        ], 
+        "5e81ce52": [
+            "editorIndentGuide.background"
+        ], 
+        "5f7e9779": [
+            "editor.selectionBackground"
+        ], 
+        "80a4c2": [
+            "editorCursor.foreground"
+        ], 
+        "d6deeb": [
+            "editor.foreground"
+        ]
+    }, 
+    "fontStyle": {
+        "bold": [
+            "bold", 
+            "markup.bold.markdown"
+        ], 
+        "italic": [
+            "italic", 
+            "meta.diff", 
+            "meta.diff.header", 
+            "markup.deleted", 
+            "markup.changed", 
+            "meta.diff.header.git", 
+            "meta.diff.header.from-file", 
+            "meta.diff.header.to-file", 
+            "markup.italic.markdown"
+        ]
+    }, 
+    "foreground": {
+        "219186": [
+            "markup.inserted"
+        ], 
+        "269186": [
+            "other.add"
+        ], 
+        "57eaf1": [
+            "meta.property-list entity.name.tag.reference"
+        ], 
+        "5ca7e4": [
+            "string.regexp", 
+            "string.regexp keyword.other"
+        ], 
+        "5f7e97": [
+            "meta.function punctuation.separator.comma"
+        ], 
+        "637777": [
+            "comment", 
+            "comment.line.double-slash"
+        ], 
+        "697098": [
+            "markup.quote.markdown"
+        ], 
+        "7fdbca": [
+            "support.function.construct", 
+            "keyword.other.new", 
+            "entity.name.tag", 
+            "upport.constant.meta.property-value", 
+            "support.constant", 
+            "keyword.other.special-method", 
+            "keyword.other.new", 
+            "keyword.other.debugger", 
+            "keyword.control", 
+            "keyword.operator", 
+            "variable.parameter.function", 
+            "constant.language.symbol.hashkey.ruby", 
+            "punctuation.definition.metadata.markdown"
+        ], 
+        "80cbc4": [
+            "support.type.vendor.property-name", 
+            "support.constant.vendor.property-value", 
+            "support.type.property-name", 
+            "meta.property-list entity.name.tag", 
+            "meta.property-name", 
+            "string.quoted.double.json punctuation.definition.string.json", 
+            "markup.inline.raw.markdown"
+        ], 
+        "82aaff": [
+            "storage.type", 
+            "entity.name.function", 
+            "constant.language", 
+            "punctuation.definition.constant", 
+            "variable.other.constant", 
+            "constant.character", 
+            "constant.other", 
+            "support.function", 
+            "support.constant", 
+            "variable.parameter.function.python", 
+            "meta.function-call.arguments.python"
+        ], 
+        "82b1ff": [
+            "markup.heading.markdown", 
+            "punctuation.definition.string.markdown", 
+            "punctuation.definition.string.begin.markdown", 
+            "punctuation.definition.string.end.markdown", 
+            "meta.link.inline.markdown punctuation.definition.string", 
+            "beginning.punctuation.definition.list.markdown"
+        ], 
+        "8eace3": [
+            "source.python variable.language.special"
+        ], 
+        "a2bffc": [
+            "markup.changed", 
+            "meta.diff.header.git", 
+            "meta.diff.header.from-file", 
+            "meta.diff.header.to-file"
+        ], 
+        "addb67": [
+            "string", 
+            "variable", 
+            "entity.other.inherited-class", 
+            "punctuation.definition.variable", 
+            "bold", 
+            "entity.other.inherited-class", 
+            "entity.other.attribute-name", 
+            "entity.name.tag.custom", 
+            "support.type", 
+            "support.class", 
+            "support.variable.dom", 
+            "support.constant.math", 
+            "support.type.property-name.json", 
+            "support.constant.json", 
+            "entity.name.function.decorator.python", 
+            "markup.bold.markdown"
+        ], 
+        "b2ccd6": [
+            "meta.function-call.python", 
+            "meta.function-call.generic.python"
+        ], 
+        "c789d6": [
+            "meta.structure.dictionary.value.json string.quoted.double"
+        ], 
+        "c792ea": [
+            "keyword", 
+            "punctuation.accessor", 
+            "storage", 
+            "meta.var.expr", 
+            "meta.class meta.method.declaration meta.var.expr storage.type.jsm", 
+            "storage.type.property.js", 
+            "storage.type.property.ts", 
+            "storage.type.property.tsx", 
+            "italic", 
+            "keyword.operator.comparison", 
+            "keyword.control.flow.js", 
+            "keyword.control.flow.ts", 
+            "keyword.control.flow.tsx", 
+            "keyword.control.ruby", 
+            "keyword.control.module.ruby", 
+            "keyword.control.class.ruby", 
+            "keyword.control.def.ruby", 
+            "keyword.control.loop.js", 
+            "keyword.control.loop.ts", 
+            "keyword.control.import.js", 
+            "keyword.control.import.ts", 
+            "keyword.control.import.tsx", 
+            "keyword.control.from.js", 
+            "keyword.control.from.ts", 
+            "keyword.control.from.tsx", 
+            "keyword.operator.relational", 
+            "keyword.operator.assignement", 
+            "keyword.operator.arithmetic", 
+            "keyword.operator.bitwise", 
+            "keyword.operator.increment", 
+            "keyword.operator.ternary", 
+            "meta.delimiter.period", 
+            "meta.selector", 
+            "entity.name.tag.doctype", 
+            "meta.tag.sgml.doctype", 
+            "markup.italic.markdown"
+        ], 
+        "cc2996": [
+            "punctuation.definition.tag.html", 
+            "punctuation.definition.tag.begin", 
+            "punctuation.definition.tag.end"
+        ], 
+        "cdebf7": [
+            "object"
+        ], 
+        "d3201f": [
+            "other.package.exclude", 
+            "other.remove"
+        ], 
+        "d3423e": [
+            "punctuation.section.embedded", 
+            "string.template meta.template.expression"
+        ], 
+        "d6deeb": [
+            "punctuation.terminator.expression", 
+            "punctuation.definition.arguments", 
+            "punctuation.definition.array", 
+            "punctuation.section.array", 
+            "meta.array", 
+            "string.template punctuation.definition.string", 
+            "meta.brace", 
+            "variable.other.ruby", 
+            "punctuation.python", 
+            "string.other.link.title.markdown", 
+            "string.other.link.description.markdown"
+        ], 
+        "d7dbe0": [
+            "variable.parameter"
+        ], 
+        "d9f5dd": [
+            "punctuation.definition.list.begin", 
+            "punctuation.definition.list.end", 
+            "punctuation.separator.arguments", 
+            "punctuation.definition.list", 
+            "punctuation.definition.string", 
+            "punctuation.definition.parameters"
+        ], 
+        "e0eddd": [
+            "meta.diff", 
+            "meta.diff.header"
+        ], 
+        "ecc48d": [
+            "vstring.quoted", 
+            "variable.other.readwrite.js", 
+            "string.quoted", 
+            "string.quoted.double", 
+            "string.quoted.single", 
+            "entity.name.type.class.ruby", 
+            "keyword.control.class.ruby", 
+            "meta.class.ruby"
+        ], 
+        "ef535090": [
+            "markup.deleted"
+        ], 
+        "f78c6c": [
+            "constant.numeric", 
+            "constant.character.numeric", 
+            "constant.character.escape", 
+            "constant.other.color.rgb-value punctuation.definition.constant"
+        ], 
+        "fad430": [
+            "entity.other.attribute-name.id"
+        ], 
+        "ff5874": [
+            "constant.language.null", 
+            "constant.language.boolean", 
+            "meta.structure.dictionary.json meta.structure.dictionary.value constant.language", 
+            "constant.language.python"
+        ], 
+        "ff869a": [
+            "markup.underline.link.markdown", 
+            "markup.underline.link.image.markdown"
+        ], 
+        "ffcb8b": [
+            "entity.name.class", 
+            "meta.class entity.name.type.class"
+        ], 
+        "ffeb95": [
+            "constant.other.color", 
+            "keyword.other.unit"
+        ], 
+        "ffffff": [
+            "invalid", 
+            "invalid.deprecated", 
+            "object.comma"
+        ]
+    }
+}

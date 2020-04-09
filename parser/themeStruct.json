@@ -1,242 +1,291 @@
 {
-    "color_01": [
-        "support.function.construct", 
-        "keyword.other.new", 
-        "entity.name.tag", 
-        "upport.constant.meta.property-value", 
-        "support.constant", 
-        "keyword.other.special-method", 
-        "keyword.other.new", 
-        "keyword.other.debugger", 
-        "keyword.control", 
-        "keyword.operator", 
-        "variable.parameter.function", 
-        "constant.language.symbol.hashkey.ruby", 
-        "punctuation.definition.metadata.markdown"
-    ], 
-    "color_02": [
-        "string.regexp", 
-        "string.regexp keyword.other"
-    ], 
-    "color_03": [
-        "meta.structure.dictionary.value.json string.quoted.double"
-    ], 
-    "color_04": [
-        "markup.heading.markdown", 
-        "punctuation.definition.string.markdown", 
-        "punctuation.definition.string.begin.markdown", 
-        "punctuation.definition.string.end.markdown", 
-        "meta.link.inline.markdown punctuation.definition.string", 
-        "beginning.punctuation.definition.list.markdown"
-    ], 
-    "color_05": [
-        "markup.quote.markdown"
-    ], 
-    "color_06": [
-        "editorIndentGuide.background"
-    ], 
-    "color_07": [
-        "source.python variable.language.special"
-    ], 
-    "color_08": [
-        "editorCursor.foreground"
-    ], 
-    "color_09": [
-        "markup.underline.link.markdown", 
-        "markup.underline.link.image.markdown"
-    ], 
-    "color_10": [
-        "comment", 
-        "comment.line.double-slash"
-    ], 
-    "color_11": [
-        "markup.inserted"
-    ], 
-    "color_12": [
-        "editor.selectionHighlightBorder"
-    ], 
-    "color_13": [
-        "meta.function-call.python", 
-        "meta.function-call.generic.python"
-    ], 
-    "color_14": [
-        "entity.name.class", 
-        "meta.class entity.name.type.class"
-    ], 
-    "color_15": [
-        "markup.changed", 
-        "meta.diff.header.git", 
-        "meta.diff.header.from-file", 
-        "meta.diff.header.to-file"
-    ], 
-    "color_16": [
-        "other.add"
-    ], 
-    "color_17": [
-        "editor.selectionBackground"
-    ], 
-    "color_18": [
-        "entity.other.attribute-name.id"
-    ], 
-    "color_19": [
-        "invalid", 
-        "invalid.deprecated", 
-        "object.comma"
-    ], 
-    "color_20": [
-        "keyword", 
-        "punctuation.accessor", 
-        "storage", 
-        "meta.var.expr", 
-        "meta.class meta.method.declaration meta.var.expr storage.type.jsm", 
-        "storage.type.property.js", 
-        "storage.type.property.ts", 
-        "storage.type.property.tsx", 
-        "italic", 
-        "keyword.operator.comparison", 
-        "keyword.control.flow.js", 
-        "keyword.control.flow.ts", 
-        "keyword.control.flow.tsx", 
-        "keyword.control.ruby", 
-        "keyword.control.module.ruby", 
-        "keyword.control.class.ruby", 
-        "keyword.control.def.ruby", 
-        "keyword.control.loop.js", 
-        "keyword.control.loop.ts", 
-        "keyword.control.import.js", 
-        "keyword.control.import.ts", 
-        "keyword.control.import.tsx", 
-        "keyword.control.from.js", 
-        "keyword.control.from.ts", 
-        "keyword.control.from.tsx", 
-        "keyword.operator.relational", 
-        "keyword.operator.assignement", 
-        "keyword.operator.arithmetic", 
-        "keyword.operator.bitwise", 
-        "keyword.operator.increment", 
-        "keyword.operator.ternary", 
-        "meta.delimiter.period", 
-        "meta.selector", 
-        "entity.name.tag.doctype", 
-        "meta.tag.sgml.doctype", 
-        "markup.italic.markdown"
-    ], 
-    "color_21": [
-        "variable.parameter"
-    ], 
-    "color_22": [
-        "storage.type", 
-        "entity.name.function", 
-        "constant.language", 
-        "punctuation.definition.constant", 
-        "variable.other.constant", 
-        "constant.character", 
-        "constant.other", 
-        "support.function", 
-        "support.constant", 
-        "variable.parameter.function.python", 
-        "meta.function-call.arguments.python"
-    ], 
-    "color_23": [
-        "constant.numeric", 
-        "constant.character.numeric", 
-        "constant.character.escape", 
-        "constant.other.color.rgb-value punctuation.definition.constant"
-    ], 
-    "color_24": [
-        "editorWhitespace.foreground"
-    ], 
-    "color_25": [
-        "meta.function punctuation.separator.comma"
-    ], 
-    "color_26": [
-        "editor.foreground"
-    ], 
-    "color_27": [
-        "punctuation.definition.tag.html", 
-        "punctuation.definition.tag.begin", 
-        "punctuation.definition.tag.end"
-    ], 
-    "color_28": [
-        "punctuation.section.embedded", 
-        "string.template meta.template.expression"
-    ], 
-    "color_29": [
-        "string", 
-        "variable", 
-        "entity.other.inherited-class", 
-        "punctuation.definition.variable", 
-        "bold", 
-        "entity.other.inherited-class", 
-        "entity.other.attribute-name", 
-        "entity.name.tag.custom", 
-        "support.type", 
-        "support.class", 
-        "support.variable.dom", 
-        "support.constant.math", 
-        "support.type.property-name.json", 
-        "support.constant.json", 
-        "entity.name.function.decorator.python", 
-        "markup.bold.markdown"
-    ], 
-    "color_30": [
-        "meta.diff", 
-        "meta.diff.header"
-    ], 
-    "color_31": [
-        "constant.language.null", 
-        "constant.language.boolean", 
-        "meta.structure.dictionary.json meta.structure.dictionary.value constant.language", 
-        "constant.language.python"
-    ], 
-    "color_32": [
-        "editor.background"
-    ], 
-    "color_33": [
-        "support.type.vendor.property-name", 
-        "support.constant.vendor.property-value", 
-        "support.type.property-name", 
-        "meta.property-list entity.name.tag", 
-        "meta.property-name", 
-        "string.quoted.double.json punctuation.definition.string.json", 
-        "markup.inline.raw.markdown"
-    ], 
-    "color_34": [
-        "markup.deleted"
-    ], 
-    "color_35": [
-        "object"
-    ], 
-    "color_36": [
-        "other.package.exclude", 
-        "other.remove"
-    ], 
-    "color_37": [
-        "vstring.quoted", 
-        "variable.other.readwrite.js", 
-        "string.quoted", 
-        "string.quoted.double", 
-        "string.quoted.single", 
-        "entity.name.type.class.ruby", 
-        "keyword.control.class.ruby", 
-        "meta.class.ruby"
-    ], 
-    "color_38": [
-        "constant.other.color", 
-        "keyword.other.unit"
-    ], 
-    "color_39": [
-        "punctuation.definition.list.begin", 
-        "punctuation.definition.list.end", 
-        "punctuation.separator.arguments", 
-        "punctuation.definition.list", 
-        "punctuation.definition.string", 
-        "punctuation.definition.parameters"
-    ], 
-    "color_40": [
-        "meta.property-list entity.name.tag.reference"
-    ], 
-    "color_41": [
-        "editor.lineHighlightBackground"
-    ]
+    "background": {
+        "color_43": [
+            "meta.diff", 
+            "meta.diff.header"
+        ], 
+        "color_44": [
+            "markup.inserted"
+        ], 
+        "color_45": [
+            "invalid.deprecated"
+        ], 
+        "color_46": [
+            "invalid"
+        ]
+    }, 
+    "colors": {
+        "color_35": [
+            "editorWhitespace.foreground"
+        ], 
+        "color_36": [
+            "editorIndentGuide.background"
+        ], 
+        "color_37": [
+            "editor.selectionHighlightBorder"
+        ], 
+        "color_38": [
+            "editor.background"
+        ], 
+        "color_39": [
+            "editor.lineHighlightBackground"
+        ], 
+        "color_40": [
+            "editor.foreground"
+        ], 
+        "color_41": [
+            "editorCursor.foreground"
+        ], 
+        "color_42": [
+            "editor.selectionBackground"
+        ]
+    }, 
+    "fontStyle": {
+        "fontStyle_01": [
+            "bold", 
+            "markup.bold.markdown"
+        ], 
+        "fontStyle_02": [
+            "italic", 
+            "meta.diff", 
+            "meta.diff.header", 
+            "markup.deleted", 
+            "markup.changed", 
+            "meta.diff.header.git", 
+            "meta.diff.header.from-file", 
+            "meta.diff.header.to-file", 
+            "markup.italic.markdown"
+        ]
+    }, 
+    "foreground": {
+        "color_01": [
+            "support.function.construct", 
+            "keyword.other.new", 
+            "entity.name.tag", 
+            "upport.constant.meta.property-value", 
+            "support.constant", 
+            "keyword.other.special-method", 
+            "keyword.other.new", 
+            "keyword.other.debugger", 
+            "keyword.control", 
+            "keyword.operator", 
+            "variable.parameter.function", 
+            "constant.language.symbol.hashkey.ruby", 
+            "punctuation.definition.metadata.markdown"
+        ], 
+        "color_02": [
+            "string.regexp", 
+            "string.regexp keyword.other"
+        ], 
+        "color_03": [
+            "meta.structure.dictionary.value.json string.quoted.double"
+        ], 
+        "color_04": [
+            "markup.heading.markdown", 
+            "punctuation.definition.string.markdown", 
+            "punctuation.definition.string.begin.markdown", 
+            "punctuation.definition.string.end.markdown", 
+            "meta.link.inline.markdown punctuation.definition.string", 
+            "beginning.punctuation.definition.list.markdown"
+        ], 
+        "color_05": [
+            "markup.quote.markdown"
+        ], 
+        "color_06": [
+            "source.python variable.language.special"
+        ], 
+        "color_07": [
+            "markup.underline.link.markdown", 
+            "markup.underline.link.image.markdown"
+        ], 
+        "color_08": [
+            "comment", 
+            "comment.line.double-slash"
+        ], 
+        "color_09": [
+            "markup.inserted"
+        ], 
+        "color_10": [
+            "meta.function-call.python", 
+            "meta.function-call.generic.python"
+        ], 
+        "color_11": [
+            "entity.name.class", 
+            "meta.class entity.name.type.class"
+        ], 
+        "color_12": [
+            "markup.changed", 
+            "meta.diff.header.git", 
+            "meta.diff.header.from-file", 
+            "meta.diff.header.to-file"
+        ], 
+        "color_13": [
+            "other.add"
+        ], 
+        "color_14": [
+            "entity.other.attribute-name.id"
+        ], 
+        "color_15": [
+            "invalid", 
+            "invalid.deprecated", 
+            "object.comma"
+        ], 
+        "color_16": [
+            "keyword", 
+            "punctuation.accessor", 
+            "storage", 
+            "meta.var.expr", 
+            "meta.class meta.method.declaration meta.var.expr storage.type.jsm", 
+            "storage.type.property.js", 
+            "storage.type.property.ts", 
+            "storage.type.property.tsx", 
+            "italic", 
+            "keyword.operator.comparison", 
+            "keyword.control.flow.js", 
+            "keyword.control.flow.ts", 
+            "keyword.control.flow.tsx", 
+            "keyword.control.ruby", 
+            "keyword.control.module.ruby", 
+            "keyword.control.class.ruby", 
+            "keyword.control.def.ruby", 
+            "keyword.control.loop.js", 
+            "keyword.control.loop.ts", 
+            "keyword.control.import.js", 
+            "keyword.control.import.ts", 
+            "keyword.control.import.tsx", 
+            "keyword.control.from.js", 
+            "keyword.control.from.ts", 
+            "keyword.control.from.tsx", 
+            "keyword.operator.relational", 
+            "keyword.operator.assignement", 
+            "keyword.operator.arithmetic", 
+            "keyword.operator.bitwise", 
+            "keyword.operator.increment", 
+            "keyword.operator.ternary", 
+            "meta.delimiter.period", 
+            "meta.selector", 
+            "entity.name.tag.doctype", 
+            "meta.tag.sgml.doctype", 
+            "markup.italic.markdown"
+        ], 
+        "color_17": [
+            "variable.parameter"
+        ], 
+        "color_18": [
+            "storage.type", 
+            "entity.name.function", 
+            "constant.language", 
+            "punctuation.definition.constant", 
+            "variable.other.constant", 
+            "constant.character", 
+            "constant.other", 
+            "support.function", 
+            "support.constant", 
+            "variable.parameter.function.python", 
+            "meta.function-call.arguments.python"
+        ], 
+        "color_19": [
+            "constant.numeric", 
+            "constant.character.numeric", 
+            "constant.character.escape", 
+            "constant.other.color.rgb-value punctuation.definition.constant"
+        ], 
+        "color_20": [
+            "meta.function punctuation.separator.comma"
+        ], 
+        "color_21": [
+            "punctuation.terminator.expression", 
+            "punctuation.definition.arguments", 
+            "punctuation.definition.array", 
+            "punctuation.section.array", 
+            "meta.array", 
+            "string.template punctuation.definition.string", 
+            "meta.brace", 
+            "variable.other.ruby", 
+            "punctuation.python", 
+            "string.other.link.title.markdown", 
+            "string.other.link.description.markdown"
+        ], 
+        "color_22": [
+            "punctuation.definition.tag.html", 
+            "punctuation.definition.tag.begin", 
+            "punctuation.definition.tag.end"
+        ], 
+        "color_23": [
+            "punctuation.section.embedded", 
+            "string.template meta.template.expression"
+        ], 
+        "color_24": [
+            "string", 
+            "variable", 
+            "entity.other.inherited-class", 
+            "punctuation.definition.variable", 
+            "bold", 
+            "entity.other.inherited-class", 
+            "entity.other.attribute-name", 
+            "entity.name.tag.custom", 
+            "support.type", 
+            "support.class", 
+            "support.variable.dom", 
+            "support.constant.math", 
+            "support.type.property-name.json", 
+            "support.constant.json", 
+            "entity.name.function.decorator.python", 
+            "markup.bold.markdown"
+        ], 
+        "color_25": [
+            "meta.diff", 
+            "meta.diff.header"
+        ], 
+        "color_26": [
+            "constant.language.null", 
+            "constant.language.boolean", 
+            "meta.structure.dictionary.json meta.structure.dictionary.value constant.language", 
+            "constant.language.python"
+        ], 
+        "color_27": [
+            "support.type.vendor.property-name", 
+            "support.constant.vendor.property-value", 
+            "support.type.property-name", 
+            "meta.property-list entity.name.tag", 
+            "meta.property-name", 
+            "string.quoted.double.json punctuation.definition.string.json", 
+            "markup.inline.raw.markdown"
+        ], 
+        "color_28": [
+            "markup.deleted"
+        ], 
+        "color_29": [
+            "object"
+        ], 
+        "color_30": [
+            "other.package.exclude", 
+            "other.remove"
+        ], 
+        "color_31": [
+            "vstring.quoted", 
+            "variable.other.readwrite.js", 
+            "string.quoted", 
+            "string.quoted.double", 
+            "string.quoted.single", 
+            "entity.name.type.class.ruby", 
+            "keyword.control.class.ruby", 
+            "meta.class.ruby"
+        ], 
+        "color_32": [
+            "constant.other.color", 
+            "keyword.other.unit"
+        ], 
+        "color_33": [
+            "punctuation.definition.list.begin", 
+            "punctuation.definition.list.end", 
+            "punctuation.separator.arguments", 
+            "punctuation.definition.list", 
+            "punctuation.definition.string", 
+            "punctuation.definition.parameters"
+        ], 
+        "color_34": [
+            "meta.property-list entity.name.tag.reference"
+        ]
+    }
 }
