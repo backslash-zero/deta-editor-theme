@@ -44,7 +44,7 @@ for rule in data['rules']:
 for color in data['colors']:
     if color[1:] not in themeStruct['colors']:
         themeStruct['colors'][data['colors'][color][1:]] = list()
-    themeStruct['colors'][data['colors'][color][1:]].append(color)
+    themeStruct['colors'][data['colors'][color][1:]] = color
 
 # Rename colors
 i = 0

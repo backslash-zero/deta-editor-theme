@@ -15,30 +15,14 @@
         ]
     }, 
     "colors": {
-        "color_35": [
-            "editorWhitespace.foreground"
-        ], 
-        "color_36": [
-            "editorIndentGuide.background"
-        ], 
-        "color_37": [
-            "editor.selectionHighlightBorder"
-        ], 
-        "color_38": [
-            "editor.background"
-        ], 
-        "color_39": [
-            "editor.lineHighlightBackground"
-        ], 
-        "color_40": [
-            "editor.foreground"
-        ], 
-        "color_41": [
-            "editorCursor.foreground"
-        ], 
-        "color_42": [
-            "editor.selectionBackground"
-        ]
+        "color_35": "editorWhitespace.foreground", 
+        "color_36": "editorIndentGuide.background", 
+        "color_37": "editor.selectionHighlightBorder", 
+        "color_38": "editor.background", 
+        "color_39": "editor.lineHighlightBackground", 
+        "color_40": "editor.foreground", 
+        "color_41": "editorCursor.foreground", 
+        "color_42": "editor.selectionBackground"
     }, 
     "fontStyle": {
         "fontStyle_01": [
