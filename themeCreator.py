@@ -6,8 +6,6 @@ with open('parser/themeStruct.json') as file:
     themeStruct = json.load(file)
 
 theme = {
-    "base": "vs-dark",
-    "inherit": True,
     "rules": [],
     "colors": {}
 }
@@ -15,6 +13,10 @@ theme = {
 appended = False
 
 for color in colorMap:
+    if color == 'base':
+        theme['base'] = colorMap[color]
+    if color == 'inherit':
+        theme['inherit'] = colorMap[color]
     if color in themeStruct['foreground']:
         for token in themeStruct['foreground'][color]:
             for colorBack in themeStruct['background']:

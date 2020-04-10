@@ -1,4 +1,8 @@
 {
+    "base": "vs-dark",
+    "inherit": true,
+    "bold": true,
+    "italic": true,
     "color_01": "7fdbca", 
     "color_02": "5ca7e4", 
     "color_03": "c789d6", 
