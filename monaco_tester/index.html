@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+</head>
+<body style="height:100vh;">
+
+<div id="container-js" style="width:800px;height:50%;"></div>
+<div id="container-py" style="width:800px;height:50%;"></div>
+
+<script src="node_modules/monaco-editor/min/vs/loader.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js" integrity="sha256-0SGl1PJNDyJwcV5T+weg2zpEMrh7xvlwO4oXgvZCeZk=" crossorigin="anonymous"></script>
+<script>
+    var jsonTHeme = new XMLHttpRequest();
+    jsonTHeme.open("GET", "../theme.json", false);
+    jsonTHeme.send(null)
+    require.config({ paths: { 'vs': 'node_modules/monaco-editor/min/vs' }});
+    require(['vs/editor/editor.main'], function() {
+        monaco.editor.defineTheme('Deta', JSON.parse(jsonTHeme.responseText));
+        var editor = monaco.editor.create(document.getElementById('container-js'), {
+            value: [
+                'monaco.editor.defineTheme("Deta", {',
+                '	base: "vs", // can also be vs-dark or hc-black',
+                '	inherit: true, // can also be false to completely replace the builtin rules',
+                '	rules: [',
+                '		{ token: "comment", foreground: "ffa500", fontStyle: "italic underline" },',
+                '		{ token: "comment.js", foreground: "008800", fontStyle: "bold" },',
+                '		{ token: "comment.css", foreground: "0000ff" } // will inherit fontStyle from `comment` above',
+                '	]',
+                '});'
+            ].join('\n'),
+            language: 'javascript',
+            theme: "Deta"
+        });
+        var editor = monaco.editor.create(document.getElementById('container-py'), {
+            value: [
+                '# Driver code to test above ',
+                'arr = [12, 11, 13, 5, 6, 7] ',
+                'n = len(arr) ',
+                'print ("Given array is") ',
+                'for i in range(n): ',
+                '    print ("%d" %arr[i]), ',
+                'mergeSort(arr,0,n-1) ',
+                'print ("\n\nSorted array is") ',
+                'for i in range(n): ',
+                '    print ("%d" %arr[i])'
+                ].join('\n'),
+                language: 'python',
+                theme: "Deta"
+        });
+    });
+</script>
+</body>
+</html>
