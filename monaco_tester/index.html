@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
-<body style="height:100vh;">
-
-<div id="container-js" style="width:800px;height:50%;"></div>
-<div id="container-py" style="width:800px;height:50%;"></div>
-
+<body>
+<div class="main">
+    <div id="containerIDE">
+        <div class="container-language" id="container-js"></div>
+        <div class="container-language" id="container-py"></div>
+    </div>
+    <div id="containerColors">
+    </div>
+</div>
+<script src="js/monaco_editor.js"></script>
 <script src="node_modules/monaco-editor/min/vs/loader.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js" integrity="sha256-0SGl1PJNDyJwcV5T+weg2zpEMrh7xvlwO4oXgvZCeZk=" crossorigin="anonymous"></script>
 <script>
     var jsonTHeme = new XMLHttpRequest();
     jsonTHeme.open("GET", "../theme.json", false);
-    jsonTHeme.send(null)
+    jsonTHeme.send(null);
     require.config({ paths: { 'vs': 'node_modules/monaco-editor/min/vs' }});
     require(['vs/editor/editor.main'], function() {
         monaco.editor.defineTheme('Deta', JSON.parse(jsonTHeme.responseText));
@@ -27,10 +34,16 @@
                 '		{ token: "comment.js", foreground: "008800", fontStyle: "bold" },',
                 '		{ token: "comment.css", foreground: "0000ff" } // will inherit fontStyle from `comment` above',
                 '	]',
-                '});'
+                '   with open("themeExample.json", "w") as newFile:',
+                '       newFile = json.dump(themeStruct, newFile, indent=4, sort_keys=True)',
+                '   with open("themeStruct.json", "w") as newFile:',
+                '       newFile = json.dump(sortedStruct, newFile, indent=4, sort_keys=True)',
+                '   with open("colorMap.json", "w") as newFile:',
+                '       newFile = json.dump(colorMap, newFile, indent=4, sort_keys=True)'
             ].join('\n'),
             language: 'javascript',
-            theme: "Deta"
+            theme: "Deta",
+            fontSize: 13
         });
         var editor = monaco.editor.create(document.getElementById('container-py'), {
             value: [
@@ -43,10 +56,27 @@
                 'mergeSort(arr,0,n-1) ',
                 'print ("\n\nSorted array is") ',
                 'for i in range(n): ',
-                '    print ("%d" %arr[i])'
+                '    print ("%d" %arr[i])',
+                '                /* Add event listeners to all elements by hand */',
+                '',
+                'divs[0].addEventListener("click", function() {',
+                '    console.log("Hello " + this + " (" + this.innerHTML + ") from event listener [0]");',
+                '    /* Here, "this" refers to 1st div */',
+                '});',
+                '    ',
+                'divs[1].addEventListener("click", function() {',
+                '    console.log("Hello " + this + " (" + this.innerHTML + ") from event listener [1]");',
+                '    /* Here, "this" refers to 2nd div */',
+                '});',
+                '    ',
+                'divs[2].addEventListener("click", function() {',
+                '    console.log("Hello " + this + " (" + this.innerHTML + ") from event listener [2]");',
+                '    /* Here, "this" refers to 3rd div */',
+                '});'
                 ].join('\n'),
                 language: 'python',
-                theme: "Deta"
+                theme: "Deta",
+            	fontSize: 13
         });
     });
 </script>

@@ -1,0 +1,38 @@
+body {
+    margin:0;
+    background-image: linear-gradient(to right, #221e29, #110f14);
+}
+
+#containerColors {
+    width:50%;
+    height:100%;
+    padding:40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#containerIDE {
+    width:50%;
+    height:100%;
+    display: inline-block;
+}
+
+.container-language {
+    width:auto;
+    height:50%;
+}
+
+.main {
+    display: flex;
+    align-items: stretch;
+    height:100vh;
+}
+.element {
+    height: 32px;
+    padding: 8px;
+    margin: 8px;
+    width: auto;
+    color: white;
+    font-style: monospace;
+    border: 1px solid white;
+}
